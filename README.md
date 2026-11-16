@@ -30,44 +30,13 @@ I enjoy working across the full path from problem framing and architecture to im
 - **AI & orchestration:** Ollama · AutoGen · multi-agent workflows · RAG
 - **Architecture & practice:** DDD · microservices · hexagonal architecture · specification-driven development · testing
 
-## Skill map
+## Skill radar
 
-The diagram shows how my core areas connect and where I’ve explored them in projects. It’s a map of focus and hands-on work, not a proficiency ranking.
+My self-assessed snapshot of the areas I focus on, informed by hands-on project work. Ratings are personal—not a formal assessment or certification.
 
-```mermaid
-flowchart TD
-    ARCH["Software architecture"]
-    ARCH --> DDD["DDD & bounded contexts"]
-    ARCH --> HEX["Microservices & hexagonal design"]
-    ARCH --> API["Backend systems & APIs"]
-    ARCH --> AGENT["AI agent systems"]
-    ARCH --> DELIVERY["Engineering delivery"]
+![Radar chart of self-assessed skills on a 1–5 scale: software architecture 4, backend and APIs 4, AI agents and orchestration 4, workflow automation 4, engineering craft 4, and frontend development 3.](./assets/skill-stats.svg)
 
-    API --> STACK["Python · FastAPI<br/>Java · Spring Boot<br/>TypeScript · React"]
-    AGENT --> ORCH["Multi-agent orchestration"]
-    AGENT --> LOCAL["Local LLMs · Ollama"]
-    AGENT --> RAG["RAG & contextual retrieval"]
-    AGENT --> HUMAN["Human review & approval"]
-    DELIVERY --> SPEC["Specification-driven development"]
-    DELIVERY --> QUALITY["Testing · observability<br/>iterative delivery"]
-
-    JAVA["JavaMicroservicesDDD"] -. explores .-> DDD
-    JAVA -. explores .-> HEX
-    AGENTCRAFT["AgentCraft"] -. explores .-> ORCH
-    AGENTCRAFT -. explores .-> HUMAN
-    ORCA["ORCA Platform"] -. explores .-> LOCAL
-    STREAM["StreamWeave Platform"] -. explores .-> ORCH
-
-    classDef core fill:#172554,stroke:#60a5fa,color:#fff
-    classDef skill fill:#102a43,stroke:#38bdf8,color:#e0f2fe
-    classDef practice fill:#1f2937,stroke:#94a3b8,color:#f8fafc
-    classDef project fill:#14532d,stroke:#4ade80,color:#f0fdf4
-    class ARCH core
-    class DDD,HEX,API,AGENT skill
-    class STACK,ORCH,LOCAL,RAG,HUMAN skill
-    class DELIVERY,SPEC,QUALITY practice
-    class JAVA,AGENTCRAFT,ORCA,STREAM project
-```
+**Scale:** 1 = exploring · 3 = practiced · 5 = strongest areas
 
 ## How I approach a problem
 
