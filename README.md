@@ -24,9 +24,9 @@ I enjoy working across the full path from problem framing and architecture to im
 
 ## Technologies I work with
 
-- **Languages:** Python · Java · TypeScript · JavaScript · C#
+- **Languages:** Python · Java · Kotlin · Swift · TypeScript · JavaScript · C#
 - **Backend & APIs:** FastAPI · Spring Boot · REST · asynchronous services
-- **Frontend:** React
+- **Frontend & mobile:** React · Expo (Android · iOS) · Native Android (Kotlin) · Native iOS (Swift)
 - **AI & orchestration:** Ollama · AutoGen · multi-agent workflows · RAG
 - **Architecture & practice:** DDD · microservices · hexagonal architecture · specification-driven development · testing
 
